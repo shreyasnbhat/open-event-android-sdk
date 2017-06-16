@@ -1,0 +1,103 @@
+{
+  "data": {
+    "relationships": {
+      "tax": {
+        "links": {
+          "self": "/v1/events/13/relationships/tax",
+          "related": "/v1/events/13/tax"
+        }
+      },
+      "sponsors": {
+        "links": {
+          "self": "/v1/events/13/relationships/sponsors",
+          "related": "/v1/events/13/sponsors"
+        }
+      },
+      "social-links": {
+        "links": {
+          "self": "/v1/events/13/relationships/social-links",
+          "related": "/v1/events/13/social-links"
+        }
+      },
+      "tracks": {
+        "links": {
+          "self": "/v1/events/13/relationships/tracks",
+          "related": "/v1/events/13/tracks"
+        }
+      },
+      "microlocation": {
+        "links": {
+          "self": "/v1/events/13/relationships/microlocations",
+          "related": "/v1/events/13/microlocation"
+        }
+      },
+      "session-types": {
+        "links": {
+          "self": "/v1/events/13/relationships/session-types",
+          "related": "/v1/events/13/session-types"
+        }
+      }
+    },
+    "attributes": {
+      "payment-country": null,
+      "paypal-email": null,
+      "code-of-conduct": "",
+      "pay-by-bank": false,
+      "schedule-published-on": null,
+      "payment-currency": null,
+      "organizer-description": "",
+      "xcal-url": null,
+      "original-image-url": null,
+      "topic": null,
+      "onsite-details": null,
+      "organizer-name": null,
+      "large-image-url": null,
+      "timezone": "UTC",
+      "deleted-at": null,
+      "ticket-url": null,
+      "pay-by-stripe": false,
+      "location-name": null,
+      "privacy": "public",
+      "state": "Draft",
+      "latitude": null,
+      "tax-allow": false,
+      "pay-onsite": false,
+      "type": null,
+      "email": "example@example.com",
+      "starts-at": "2017-05-31T18:30:00+00:00",
+      "searchable-location-name": null,
+      "description": "",
+      "pentabarf-url": null,
+      "logo-url": null,
+      "ticket-include": false,
+      "event-url": null,
+      "ical-url": null,
+      "pay-by-paypal": false,
+      "show-map": 1,
+      "sponsors-enabled": false,
+      "name": "New Event",
+      "sub-topic": null,
+      "icon-image-url": null,
+      "thumbnail-image-url": null,
+      "created-at": "2017-06-11T07:26:41.852285+00:00",
+      "longitude": null,
+      "pay-by-cheque": false,
+      "bank-details": null,
+      "cheque-details": null,
+      "has-session-speakers": false,
+      "identifier": "99c4d267",
+      "ends-at": "2017-06-04T18:30:00+00:00"
+    },
+    "type": "event",
+    "id": "13",
+    "links": {
+      "self": "/v1/events/13"
+    }
+  },
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "links": {
+    "self": "/v1/events/13"
+  }
+}
