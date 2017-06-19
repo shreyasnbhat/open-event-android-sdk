@@ -51,7 +51,7 @@ public class SessionType {
 
     @Override
     public String toString() {
-        return "ApiSessionType{" +
+        return "SessionType{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 ", length='" + length + '\'' +

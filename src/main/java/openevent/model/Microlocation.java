@@ -90,7 +90,7 @@ public class Microlocation {
 
     @Override
     public String toString() {
-        return "ApiMicrolocation{" +
+        return "Microlocation{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 ", latitude='" + latitude + '\'' +

@@ -5,12 +5,10 @@ import com.github.jasminb.jsonapi.annotations.Id;
 
 import java.util.List;
 
+import com.github.jasminb.jsonapi.annotations.Type;
 import openevent.model.Session;
 
-/**
- * Created by arpitdec5 on 19-06-2017.
- */
-
+@Type("speaker")
 public class ApiSpeaker {
 
     @Id

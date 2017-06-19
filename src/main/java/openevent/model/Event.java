@@ -368,7 +368,7 @@ public class Event {
 
     @Override
     public String toString() {
-        return "ApiEvent{" +
+        return "Event{" +
                 "identifier='" + identifier + '\'' +
                 ", name='" + name + '\'' +
                 ", latitude=" + latitude +

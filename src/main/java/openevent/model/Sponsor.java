@@ -100,18 +100,18 @@ public class Sponsor {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+
 	@Override
-	public String toString(){
-		return "ApiSponsor{" + 
+	public String toString() {
+		return "Sponsor{" +
 				"id='" + id + '\'' +
-                ", description='" + description + '\'' +
-                ", level='" + level + '\'' +
-                ", url='" + url + '\'' +
-                ", sponsor_type='" + type + '\'' + 
-                ", logo='" + logoUrl + '\'' +
-                ", name='" + name + '\'' +
-                '}';
+				", description='" + description + '\'' +
+				", level='" + level + '\'' +
+				", url='" + url + '\'' +
+				", type='" + type + '\'' +
+				", logoUrl='" + logoUrl + '\'' +
+				", name='" + name + '\'' +
+				'}';
 	}
 
 }

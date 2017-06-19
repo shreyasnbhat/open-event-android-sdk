@@ -248,25 +248,25 @@ public class Session {
 
     @Override
     public String toString() {
-        return "ApiSession{" +
+        return "Session{" +
                 "id='" + id + '\'' +
                 ", title='" + title + '\'' +
                 ", subtitle='" + subtitle + '\'' +
-                ", short-abstract='" + shortAbstract + '\'' +
-                ", long-abstract='" + longAbstract + '\'' +
+                ", shortAbstract='" + shortAbstract + '\'' +
+                ", longAbstract='" + longAbstract + '\'' +
                 ", comments='" + comments + '\'' +
-                ", starts-at='" + startsAt + '\'' +
-                ", ends-at='" + endsAt + '\'' +
-                ", session-type='" + sessionType + '\'' +
-                ", track='" + track + '\'' +
+                ", startsAt='" + startsAt + '\'' +
+                ", endsAt='" + endsAt + '\'' +
                 ", language='" + language + '\'' +
-                ", slides='" + slidesUrl + '\'' +
-                ", video='" + videoUrl + '\'' +
-                ", audio='" + audioUrl + '\'' +
-                ", signup-url='" + signupUrl + '\'' +
-                ", microlocation='" + microlocation + '\'' +
-                ", speakers='" + speakers + '\'' +
+                ", slidesUrl='" + slidesUrl + '\'' +
+                ", videoUrl='" + videoUrl + '\'' +
+                ", audioUrl='" + audioUrl + '\'' +
+                ", signupUrl='" + signupUrl + '\'' +
                 ", state='" + state + '\'' +
+                ", sessionType=" + sessionType +
+                ", track=" + track +
+                ", microlocation=" + microlocation +
+                ", speakers=" + speakers +
                 '}';
     }
 }

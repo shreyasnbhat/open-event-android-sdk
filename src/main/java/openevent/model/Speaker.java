@@ -248,25 +248,25 @@ public class Speaker {
 
     @Override
     public String toString() {
-        return "ApiSpeaker{" +
+        return "Speaker{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 ", email='" + email + '\'' +
                 ", mobile='" + mobile + '\'' +
-                ", photo='" + imageUrl + '\'' +
+                ", imageUrl='" + imageUrl + '\'' +
                 ", organisation='" + organisation + '\'' +
                 ", position='" + position + '\'' +
                 ", country='" + country + '\'' +
-                ", short_biography='" + shortBiography + '\'' +
-                ", long_biography='" + longBiography + '\'' +
-                ", speaking_experience='" + speakingExperience + '\'' +
-                ", website='" + websiteUrl + '\'' +
-                ", twitter='" + twitterUrl + '\'' +
-                ", facebook='" + fbUrl + '\'' +
-                ", github='" + githubUrl + '\'' +
-                ", linkedin='" + linkedinUrl + '\'' +
-                ", featured='" + isFeatured + '\'' +
-                ", sessions='" + sessions + '\'' +
+                ", shortBiography='" + shortBiography + '\'' +
+                ", longBiography='" + longBiography + '\'' +
+                ", speakingExperience='" + speakingExperience + '\'' +
+                ", websiteUrl='" + websiteUrl + '\'' +
+                ", twitterUrl='" + twitterUrl + '\'' +
+                ", fbUrl='" + fbUrl + '\'' +
+                ", githubUrl='" + githubUrl + '\'' +
+                ", linkedinUrl='" + linkedinUrl + '\'' +
+                ", isFeatured=" + isFeatured +
+                ", sessions=" + sessions +
                 '}';
     }
 }

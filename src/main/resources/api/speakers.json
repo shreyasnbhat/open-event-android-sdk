@@ -43,7 +43,7 @@
           }
         ]
       },
-      "type": "speakers",
+      "type": "speaker",
       "id": "1",
       "links": {
         "self": "/v1/speakers/1"
@@ -88,6 +88,11 @@
             "title": "Deep Learning: From Inception to Dreams"
           }
         ]
+      },
+      "type": "speaker",
+      "id": "2",
+      "links": {
+        "self": "/v1/speakers/2"
       }
     }
   ],

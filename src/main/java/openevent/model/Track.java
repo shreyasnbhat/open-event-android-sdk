@@ -92,13 +92,13 @@ public class Track {
 
     @Override
     public String toString() {
-        return "ApiTrack{" +
+        return "Track{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 ", description='" + description + '\'' +
                 ", color='" + color + '\'' +
-                ", font-color='" + fontColor + '\'' +
-                ", sessions='" + sessions + '\'' +
+                ", fontColor='" + fontColor + '\'' +
+                ", sessions=" + sessions +
                 '}';
     }
 }
